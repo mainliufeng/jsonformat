@@ -10,6 +10,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        jsonformat=scripts.jsonformat:format
+        jsonformat=jsonformat.formatter:format
     ''',
 )
